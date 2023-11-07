@@ -1,0 +1,50 @@
+.block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 40%;
+}
+
+.resu{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.resu .result{
+    border: 1px solid gray;
+    background-color: silver;
+    width: 50%;
+    height: 20px;
+    text-align: center;
+
+}
+
+.numbers{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.numbers a{
+    width: 20%;
+    background-color: silver;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 2px;
+    text-align: center;
+}
+
+.reset{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.reset a{
+    width: 95%;
+    text-align: center;
+    padding: 5px;
+    border: 3px solid black;
+}
